@@ -388,7 +388,7 @@ def BuyMarket(orders):
 
 #MAIN
 robinhood_client = Robinhood()
-robinhood_client.login(username='nzemtzov@g.hmc.edu', password='NeoQuantReloaded')
+robinhood_client.login(username='', password='')
 tz_LA = pytz.timezone('America/Los_Angeles') 
 datetime_LA = datetime.now(tz_LA)
 weekday = datetime_LA.weekday()
