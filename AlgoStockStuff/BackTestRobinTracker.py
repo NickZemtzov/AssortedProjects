@@ -95,7 +95,7 @@ def backTest(endDay,timePeriod, functionType, numStocks):
 
 '''Try a varient where u need more than a certain num of people owning'''
 robinhood_client = Robinhood()
-robinhood_client.login(username='nzemtzov@g.hmc.edu', password='NeoQuantReloaded')
+robinhood_client.login(username='', password='')
 ROBIN_TRACK_FOLDER_NAME = "RHStockPopularities(2020-06-16)"
 LIST_OF_TRADING_DAYS = listOfDays(robinhood_client.get_historical_quotes("AAPL", 'day','year')['results'][0]['historicals'])
 MIN_OWNERS_LIMIT = 200
