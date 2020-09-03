@@ -10,7 +10,7 @@ import pytz
 
 #to run this again, just redownload the latest version of the robintrack historicals
 robinhood_client = Robinhood()
-robinhood_client.login(username='nzemtzov@g.hmc.edu', password='NeoQuantReloaded')
+robinhood_client.login(username='', password='')
 
 def getPercentMoveNextDay(ticker,day):#note that day must be in form YYYY-MM-DD and quote data must be from RH historicals by day like l = robinhood_client.get_historical_quotes("BCDA", 'day','year')['results'][0]['historicals']
     historicalQuote = robinhood_client.get_historical_quotes(ticker, 'day','year')['results'][0]['historicals']
