@@ -8,7 +8,7 @@ import pandas as pd
 from os import listdir
 
 robinhood_client = Robinhood()
-robinhood_client.login(username='nzemtzov@g.hmc.edu', password='NeoQuantReloaded')
+robinhood_client.login(username='', password='')
 
 def getPercentMoveForDay(ticker,d,data):#note that day must be in form YYYY-MM-DD and quote data must be from RH historicals by day like l = robinhood_client.get_historical_quotes("BCDA", 'day','year')['results'][0]['historicals']
     for i in range(len(data)):
