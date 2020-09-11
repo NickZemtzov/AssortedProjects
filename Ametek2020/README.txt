@@ -1,1 +1,1 @@
-Most of the work is redacted but here are some data visualization programs I made. Data is imported and manipulated using pandas and then displayed with plotly. 
+Most of the work is redacted but here are some data visualization programs I made. Data is imported and manipulated using pandas and then displayed with plotly. These can be used to determine ideal inventory safety stock levels based on historical monthly data or sort parts into ABC levels based on cost and consumption.
